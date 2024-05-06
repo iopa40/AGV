@@ -1,0 +1,9 @@
+<launch>
+
+    <include file="$(find nav_pkg)/launch/gmapping.launch" />
+
+    <include file="$(find nav_pkg)/launch/my_car.launch" />
+
+    <include file="$(find nav_pkg)/launch/move_base.launch" />
+
+</launch>
